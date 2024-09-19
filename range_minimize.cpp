@@ -25,9 +25,8 @@ int main() {
         int one = A[n-3] - A[0];   
         int two = A[n-2] - A[1];   
         int three = A[n-1] - A[2];   
-        int four = A[n-1] - A[2];   
         
-        int result = min({one, two, three, four});
+        int result = min({one, two, three});
         
         cout << result << endl;
     }
