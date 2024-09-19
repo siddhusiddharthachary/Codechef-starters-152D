@@ -16,7 +16,7 @@ int main() {
             continue;
 
         }
-        while (M < 300 && P <= 1000) {
+        while (true) {
             M++;
             P += 20;
             if((P+M)>1000 || M>299) break;
